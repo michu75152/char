@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		C85860AF290562450081BF12 /* char */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = char; sourceTree = BUILT_PRODUCTS_DIR; };
-		C85860B2290562450081BF12 /* char.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = char.c; sourceTree = "<group>"; };
+		C85860B2290562450081BF12 /* char.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = char.c; path = char/char.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				C85860B2290562450081BF12 /* char.c */,
 			);
 			path = char;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 

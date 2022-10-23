@@ -6,9 +6,13 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, Woxaxaxrld!\n");
+int main()
+{
+    char characterName[] = "John";
+    int characterAge = 35;
+    printf("Mezczyzna ma na imie %s\n", characterName);
+    printf("%s jest w wieku %d lat\n", characterName, characterAge);
     return 0;
 }
